@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #c6f0d0;
+    background-color: rgb(151, 222, 243);
     margin: 0;
     padding-top: 150px;
 }
@@ -229,7 +229,8 @@ footer {
     .footer-content {
         grid-template-columns: 1fr;
     }
-}
+
+    
 
 @media (max-width: 480px) {
     header img {
@@ -257,4 +258,10 @@ footer {
     footer .footer-section {
         margin: 0.5rem 0;
     }
-}
+
+    @media (max-width: 600px) {
+        .cars {
+          grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
+
+        }
+      }
