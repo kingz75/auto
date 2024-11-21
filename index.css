@@ -121,8 +121,8 @@ button:hover {
 }
 
 .cars img {
-    height: 200px;
-    width: 200px;
+    height: ;
+    width: 150px;
 }
 
 footer {
@@ -202,6 +202,7 @@ footer {
 
     header {
         padding: 0.5rem;
+        float: left;
     }
 
     nav {
