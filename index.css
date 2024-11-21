@@ -259,8 +259,6 @@ footer {
     }
 }
 
-
-
 @media (max-width: 600px) {
     .cars {
       grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
